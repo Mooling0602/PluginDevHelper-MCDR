@@ -11,7 +11,7 @@ wheels/
 
 # UV
 uv.lock
-# .python-version
+.python-version
 
 # IDEs
 .idea/

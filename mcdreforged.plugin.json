@@ -1,17 +1,17 @@
 {
-    "id": "plugin_dev_helper",
-    "version": "0.0.1",
-    "name": "PluginDevHelper",
-    "description": {
-        "en_us": "This is a plugin as a helper for developing MCDR plugins.",
-        "zh_cn": "这是一个用于开发MCDR插件的助手插件。"
-    },
-    "author": "Mooling0602",
-    "link": "https://github.com/Mooling0602",
-    "dependencies": {
-        "mcdreforged": ">=2.14.1"
-    },
-    "resources": [
-        "lang"
-    ]
+  "id": "git_auto_reload",
+  "version": "0.0.1",
+  "name": "GitAutoReload",
+  "description": {
+    "en_us": "Auto reload plugins from git repos in MCDReforged.",
+    "zh_cn": "自动从Git仓库重载MCDR插件。"
+  },
+  "author": "Mooling0602",
+  "link": "https://github.com/Mooling0602",
+  "dependencies": {
+    "mcdreforged": ">=2.14.1"
+  },
+  "resources": [
+    "lang"
+  ]
 }

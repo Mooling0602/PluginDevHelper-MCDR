@@ -1,5 +1,0 @@
-# free-threading python is not supported by MCDReforged.
-# (Will cause a needed package failed to build.)
-# You can edit this file locally when you're sure
-# you don't use free-threading builds of python.
-<3.13
