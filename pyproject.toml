@@ -5,3 +5,11 @@ description = "Auto reload plugins from git repos in MCDReforged."
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = ["mcdreforged>=2.15.7"]
+
+[dependency-groups]
+optional = [
+    "rest-api",
+]
+
+[tool.uv.sources]
+rest-api = { git = "https://github.com/Mooling0602/RESTAPI-MCDR.git" }
