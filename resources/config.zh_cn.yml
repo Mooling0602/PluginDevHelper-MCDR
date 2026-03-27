@@ -1,0 +1,11 @@
+# 若启用，需要设置`store_repos_to`
+prefer_link_repos: false
+
+# 若启用，在加载插件代码前进行打包
+prefer_do_packaging: false
+
+# 在`prefer_link_repos`或`prefer_do_packaging`启用时使用，用绝对路径会更好
+store_repos_to: "repos"
+
+# 若启用，使用插件id作为本地文件系统中的目录名，否则使用仓库名称即git默认值。
+use_plugin_id_as_dir_name: false

@@ -1,0 +1,11 @@
+# If true, need to set option `store_repos_to`
+prefer_link_repos: false
+
+# If true, do packaging before loading plugin code
+prefer_do_packaging: false
+
+# Used when enabled `prefer_link_repos` or `prefer_do_packaging`, an absolute path is better
+store_repos_to: "repos"
+
+# If true, use plugin id as directory name in local filesystem, otherwise use repo name as git defaults.
+use_plugin_id_as_dir_name: false

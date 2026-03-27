@@ -1,6 +1,6 @@
 git_repos:
   - plugin_id: "example-plugin"
-    local_dir: "" # 留空以禁用
+    local_dir: "" # 留空以自动管理
     remote_url: "https://github.com/user/example.git"
     branch: "" # 留空以使用当前文件系统中存在的分支
     is_linked: false # 如果已链接，加载为 [链接型文件夹插件](https://docs.mcdreforged.com/zh-cn/latest/plugin_dev/plugin_format.html#linked-directory-plugin).
